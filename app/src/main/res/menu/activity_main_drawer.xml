@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_time"
+            android:icon="@drawable/ic_alarm"
+            android:title="Parking Timer" />
+        <item
+            android:id="@+id/nav_ProvideLot"
+            android:icon="@drawable/ic_add_lot"
+            android:title="Provide Parking Lot" />
+        <item
+            android:id="@+id/nav_BookLot"
+            android:icon="@drawable/ic_add_lot"
+            android:title="Book Parking Lot" />
+        <item
+            android:id="@+id/ViewOnMap"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Parking on Map" />
+
+    </group>
+
+    <item android:title="Help and Options">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_grade"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Help" />
+
+          <!--  <item
+                android:id="@+id/nav_history"
+                android:icon="@drawable/ic_history"
+                android:title="history" />-->
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/user_icon"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
